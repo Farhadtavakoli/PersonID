@@ -11,7 +11,6 @@ namespace Nivå_1
             long ID;
 
             Console.WriteLine("---- "+PersonID);
-          //  long x = Convert.ToInt64(PersonID);
            Valid= Int64.TryParse(PersonID, out ID);
           //  Valid = int.TryParse(PersonID, out ID);
             if(Valid==true)
